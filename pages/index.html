@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../assets/icons/favicon.svg">
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/fonts.css">
   <title>Manufactura</title>
 </head>
 <body>
@@ -16,17 +18,18 @@
     <nav class="header-nav">
       <ul class="header-nav__items">
         <li class="header-navlist-item"><a href="" class="header-navlist-link">About us</a></li>
-        <li class="header-navlist-item"><a href="" class="header-navlist-link">Our products</a></li>
-        <li class="header-navlist-item"><a href="" class="header-navlist-link">Contacts</a></li>
+        <li class="header-navlist-item"><a href="#products" class="header-navlist-link">Our products</a></li>
+        <li class="header-navlist-item"><a href="#footer" class="header-navlist-link">Contacts</a></li>
       </ul>
     </nav>
   </header>
-  <main class="main wrapper">
-    <section class="about-section">
+  <main class="main">
+    <section class="about-section wrapper">
       <div class="about-container">
         <img src="../assets/images/about_img.JPG" alt="Our product" class="about-img">
         <div class="about-text__container">
-          <p class="about-text">Madesto это семейная мануфактура с ручным производством на Урале. 
+          <h1>Madesto lab</h1>
+          <p class="about-text">это семейная мануфактура с ручным производством на Урале. 
             Работаем с высококачественными материалами и с ценными породами древесины. 
             Изобретаем с нуля, воплощаем, патентуем: авторская коллекция запатентованных изделий для здоровья, 
             для дома, для комфортной жизни. Только профессиональное качество.
@@ -38,6 +41,54 @@
           </p>
         </div>
       </div>
+    </section>
+    <section class="products-section" id="products">
+      <div class="carousel__container slider wrapper">
+        <div class="products__container">
+          <figure class="product__content">
+            <img src="../assets/images/products/twins.jpg" alt="Близняшки" class="product-img">
+            <figcaption class="product-discription">
+              Близняшки. Рефлексогенный инструмент, который расслабляет мышцы и связки на спазмированных участках.
+            </figcaption>
+          </figure>
+          <figure class="product__content">
+            <img src="../assets/images/products/vacuum_cup.jpg" alt="Вакуумная чаща" class="product-img">
+            <figcaption class="product-discription">
+              Большая вакуумная чаша. Послужит как отдельный массажный прибор, так и в качестве дополнения к прочим массажным инструментам.
+            </figcaption>
+          </figure>
+          <figure class="product__content">
+            <img src="../assets/images/products/caterpillar.jpg" alt="Гусеница" class="product-img">
+            <figcaption class="product-discription">
+              Гусеница. Гибкая ось инструмента задаёт тканям сильную динамику - кожа, мышцы, жир вибрируют. Фиброзные жировые клетки теряют влагу, сдуваются, а целлюлитные бугры уходят.
+            </figcaption>
+          </figure>
+          <figure class="product__content">
+            <img src="../assets/images/products/twins.jpg" alt="Близняшки" class="product-img">
+            <figcaption class="product-discription">
+              Лимфодренажная лопатка. Магистральная функция лопатки - обеспечивать слив лимфы к лимфоузлам после интенсивных массажных воздействий.
+            </figcaption>
+          </figure>
+          <figure class="product__content">
+            <img src="../assets/images/products/twins.jpg" alt="Близняшки" class="product-img">
+            <figcaption class="product-discription">
+              Малая вакуумная чаща. Инструмент спроектирован под следующие направления: антицеллюлитный, спортивный, расслабляющий, лимфодренажный массаж.
+            </figcaption>
+          </figure>
+          <figure class="product__content">
+            <img src="../assets/images/products/twins.jpg" alt="Близняшки" class="product-img">
+            <figcaption class="product-discription">
+              Близняшки. Рефлексогенный инструмент, который расслабляет мышцы и связки на спазмированных участках.
+            </figcaption>
+          </figure>
+        </div>
+        <div class="carousel-buttons__container">
+          <button class="carousel-button left"></button>
+          <button class="carousel-button right"></button>
+        </div>
+      </div>
+    </section>
+    <section class="post-about-section wrapper">
       <div class="about-container">
         <div class="about-text__container">
           <p class="about-text">❇За это время Международная школа Madesto Lab. 
@@ -52,6 +103,16 @@
         <img src="../assets/images/about_img2.JPG" alt="Our product" class="about-img">
       </div>
     </section>
+    <footer class="footer" id="footer">
+      <nav class="footer-nav">
+        <ul class="footer-nav__items">
+          <li class="footer-navlist-item"><a href="" class="footer-navlist-link">ВКонтакте</a></li>
+          <li class="footer-navlist-item"><a href="" class="footer-navlist-link">Инстаграм</a></li>
+          <li class="footer-navlist-item"><a href="" class="footer-navlist-link">ОЗОН</a></li>
+          <li class="footer-navlist-item"><a href="" class="footer-navlist-link">Яндекс.Маркет</a></li>
+        </ul>
+      </nav>
+    </footer>
   </main>
 </body>
 </html>
